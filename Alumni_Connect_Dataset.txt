@@ -1,0 +1,14 @@
+ALUMNI CONNECT - DATASET
+====================================================================================================
+
+ Alumni_ID         Name  Graduation_Year  Organization             Job_Role                                 Skills                           Interests  Experience_Years
+         1 Rahul Sharma             2020           TCS    Software Engineer                 Java; SQL; Spring Boot          Web Development; Mentoring                 5
+         2  Priya Reddy             2019       Infosys         Data Analyst                     Python; SQL; Excel             Data Science; Analytics                 6
+         3  Arjun Kumar             2021     Microsoft   Software Developer                    Java; Python; React                 AI; Web Development                 4
+         4  Sneha Patel             2018        Amazon       Cloud Engineer                       AWS; Java; Linux             Cloud Computing; DevOps                 7
+         5 Vikram Singh             2022         Wipro    Software Engineer                         C++; Java; DSA              Programming; Mentoring                 3
+         6   Ananya Rao             2020        Google       Data Scientist          Python; Machine Learning; SQL                    AI; Data Science                 5
+         7  Kiran Kumar             2019     Accenture Full Stack Developer             JavaScript; React; Node.js                     Web Development                 6
+         8  Meena Reddy             2017      Deloitte     Business Analyst                   Excel; SQL; Power BI Business Analytics; Career Guidance                 8
+         9  Rohit Verma             2021           IBM      Cloud Developer                    Python; AWS; Docker             Cloud Computing; DevOps                 4
+        10 Divya Sharma             2018 Tech Mahindra           HR Manager Recruitment; Communication; Management                       HR; Mentoring                 7

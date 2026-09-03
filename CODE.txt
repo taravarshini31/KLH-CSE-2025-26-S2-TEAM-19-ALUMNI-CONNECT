@@ -1,0 +1,153 @@
+import java.util.*;
+
+class Alumni {
+    int id;
+    String name;
+    String organization;
+    String jobRole;
+    String skills;
+    String interests;
+
+    Alumni(int id, String name, String organization,
+           String jobRole, String skills, String interests) {
+        this.id = id;
+        this.name = name;
+        this.organization = organization;
+        this.jobRole = jobRole;
+        this.skills = skills;
+        this.interests = interests;
+    }
+
+    void display() {
+        System.out.println("ID           : " + id);
+        System.out.println("Name         : " + name);
+        System.out.println("Organization : " + organization);
+        System.out.println("Job Role     : " + jobRole);
+        System.out.println("Skills       : " + skills);
+        System.out.println("Interests    : " + interests);
+        System.out.println("-------------------------------");
+    }
+}
+
+public class AlumniConnectDSA {
+
+    // Z-Function
+    static int[] calculateZ(String str) {
+        int n = str.length();
+        int[] z = new int[n];
+
+        int left = 0;
+        int right = 0;
+
+        for (int i = 1; i < n; i++) {
+
+            if (i <= right) {
+                z[i] = Math.min(right - i + 1, z[i - left]);
+            }
+
+            while (i + z[i] < n &&
+                   str.charAt(z[i]) == str.charAt(i + z[i])) {
+                z[i]++;
+            }
+
+            if (i + z[i] - 1 > right) {
+                left = i;
+                right = i + z[i] - 1;
+            }
+        }
+
+        return z;
+    }
+
+    // Search using Z-Function
+    static boolean search(String text, String pattern) {
+
+        text = text.toLowerCase();
+        pattern = pattern.toLowerCase();
+
+        String combined = pattern + "$" + text;
+
+        int[] z = calculateZ(combined);
+
+        for (int i = 0; i < z.length; i++) {
+            if (z[i] == pattern.length()) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public static void main(String[] args) {
+
+        ArrayList<Alumni> alumniList = new ArrayList<>();
+
+        // Alumni Dataset
+
+        alumniList.add(new Alumni(
+                1, "Rahul Sharma", "TCS",
+                "Software Engineer",
+                "Java, SQL, Spring Boot",
+                "Web Development, Mentoring"));
+
+        alumniList.add(new Alumni(
+                2, "Priya Reddy", "Infosys",
+                "Data Analyst",
+                "Python, SQL, Excel",
+                "Data Science, Analytics"));
+
+        alumniList.add(new Alumni(
+                3, "Arjun Kumar", "Microsoft",
+                "Software Developer",
+                "Java, Python, React",
+                "AI, Web Development"));
+
+        alumniList.add(new Alumni(
+                4, "Sneha Patel", "Amazon",
+                "Cloud Engineer",
+                "AWS, Java, Linux",
+                "Cloud Computing, DevOps"));
+
+        alumniList.add(new Alumni(
+                5, "Vikram Singh", "Wipro",
+                "Software Engineer",
+                "C++, Java, DSA",
+                "Programming, Mentoring"));
+
+        alumniList.add(new Alumni(
+                6, "Ananya Rao", "Google",
+                "Data Scientist",
+                "Python, Machine Learning, SQL",
+                "AI, Data Science"));
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("=================================");
+        System.out.println("       ALUMNI CONNECT");
+        System.out.println("=================================");
+
+        System.out.print("Enter skill, interest or organization: ");
+        String searchText = sc.nextLine();
+
+        boolean found = false;
+
+        System.out.println("\nMatching Alumni:");
+        System.out.println("---------------------------------");
+
+        for (Alumni alumni : alumniList) {
+
+            if (search(alumni.skills, searchText) 
+                search(alumni.interests, searchText) 
+                search(alumni.organization, searchText)) {
+
+                alumni.display();
+                found = true;
+            }
+        }
+if (!found) {
+            System.out.println("No matching alumni found.");
+        }
+
+        sc.close();
+    }
+}
