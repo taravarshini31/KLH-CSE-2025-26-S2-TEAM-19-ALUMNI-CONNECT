@@ -1,0 +1,104 @@
+ALUMNI CONNECT - DATASET
+========================================================================================================================
+
+  Alumni_ID              Name   Graduation_Year    Organization                    Job_Role                                    Skills                                 Interests   Experience_Years
+          1      Rahul Sharma              2020             TCS           Software Engineer                    Java; SQL; Spring Boot                Web Development; Mentoring                  5
+          2       Priya Reddy              2019         Infosys                Data Analyst                        Python; SQL; Excel                   Data Science; Analytics                  6
+          3       Arjun Kumar              2021       Microsoft          Software Developer                       Java; Python; React                       AI; Web Development                  4
+          4       Sneha Patel              2018          Amazon              Cloud Engineer                          AWS; Java; Linux                   Cloud Computing; DevOps                  7
+          5      Vikram Singh              2022           Wipro           Software Engineer                            C++; Java; DSA                    Programming; Mentoring                  3
+          6        Ananya Rao              2020          Google              Data Scientist             Python; Machine Learning; SQL                          AI; Data Science                  5
+          7       Kiran Kumar              2019       Accenture        Full Stack Developer                JavaScript; React; Node.js                           Web Development                  6
+          8       Meena Reddy              2017        Deloitte            Business Analyst                      Excel; SQL; Power BI       Business Analytics; Career Guidance                  8
+          9       Rohit Verma              2021             IBM             Cloud Developer                       Python; AWS; Docker                   Cloud Computing; DevOps                  4
+         10      Divya Sharma              2018   Tech Mahindra                  HR Manager    Recruitment; Communication; Management                             HR; Mentoring                  7
+         11        Neha Singh              2023          Oracle        Full Stack Developer            HTML, CSS; JavaScript; MongoDB                 Startups; Web Development                  2
+         12      Shruti Verma              2016        Deloitte             Product Manager                 Agile; Communication; SQL                Startups; Entrepreneurship                  9
+         13     Bhavana Singh              2018             HCL              UI/UX Designer                    CSS; HTML; Prototyping                          Design; Startups                  7
+         14      Suresh Yadav              2019            Zoho              Data Scientist      Python; Statistics; Machine Learning                    Research; Data Science                  6
+         15      Yamini Joshi              2020       Accenture             Product Manager          Product Strategy; SQL; Analytics         Entrepreneurship; Career Guidance                  5
+         16       Vamsi Varma              2014         Infosys              Cloud Engineer                   AWS; Kubernetes; Docker                Mentoring; Cloud Computing                 11
+         17      Rakesh Singh              2020            Dell   Machine Learning Engineer   Python; Machine Learning; Deep Learning                              Research; AI                  5
+         18   Kavya Choudhary              2016         Infosys                Data Analyst                 Excel; Python; Statistics                   Data Science; Mentoring                  9
+         19        Zoya Gupta              2014            Dell   Machine Learning Engineer      SQL; Machine Learning; Deep Learning                    Research; Data Science                 11
+         20         Akhil Rao              2016            Zoho           Software Engineer                            Java; DSA; C++              Web Development; Programming                  9
+         21       Varun Reddy              2018          Oracle           Software Engineer                            Java; SQL; C++                Mentoring; Web Development                  7
+         22     Deepika Patel              2018            Dell                Data Analyst                 Python; Statistics; Excel                   Analytics; Data Science                  7
+         23          Sai Nair              2018             TCS                 QA Engineer        Selenium; Postman; Test Automation            Programming; Quality Assurance                  7
+         24        Ishita Rao              2016             HCL                 QA Engineer             Postman; SQL; Test Automation            Quality Assurance; Programming                  9
+         25      Naveen Reddy              2018          Amazon           Software Engineer                     C++; Spring Boot; SQL              Web Development; Open Source                  7
+         26     Meghana Joshi              2015       Accenture              UI/UX Designer                User Research; HTML; Figma                          Startups; Design                 10
+         27      Aditya Singh              2016       Microsoft        Full Stack Developer              React; HTML, CSS; JavaScript                Mentoring; Web Development                  9
+         28    Srinivas Reddy              2019             HCL          Software Developer                        SQL; Node.js; Java                       Web Development; AI                  6
+         29     Deepika Naidu              2022        Qualcomm          Software Developer                      Java; React; Node.js                       Web Development; AI                  3
+         30        Ravi Menon              2014       Cognizant              UI/UX Designer           CSS; Prototyping; User Research                 Web Development; Startups                 11
+         31     Karthik Mehta              2017         Infosys          Software Developer                    Node.js; React; Python              Programming; Web Development                  8
+         32      Ishita Menon              2017            Zoho                  HR ManagerTalent Acquisition; Management; Recruitment                Career Guidance; Mentoring                  8
+         33        Rohit Iyer              2016             TCS              Data Scientist            Statistics; Python; TensorFlow                              AI; Research                  9
+         34    Priyanka Kumar              2020       Microsoft   Machine Learning Engineer               SQL; Deep Learning; PyTorch                          Data Science; AI                  5
+         35   Karthik Krishna              2017       Microsoft                  HR ManagerTalent Acquisition; Management; Recruitment                Mentoring; Career Guidance                  8
+         36       Keerthi Rao              2016   Tech Mahindra              Data Scientist         Statistics; Machine Learning; SQL                    Research; Data Science                  9
+         37         Sai Reddy              2021       Microsoft           Backend Developer          REST APIs; Microservices; Python              Web Development; Programming                  4
+         38     Sandeep Singh              2014           Wipro             Cloud Developer                     Docker; Python; Linux                   Cloud Computing; DevOps                 11
+         39      Anjali Gupta              2021      Salesforce            Business AnalystCommunication; Excel; Requirement Analysis               Career Guidance; Consulting                  4
+         40       Ramya Varma              2022             IBM        Full Stack Developer                React; JavaScript; Node.js                Mentoring; Web Development                  3
+         41        Rahul Iyer              2021           Wipro              UI/UX Designer                User Research; Figma; HTML                   Design; Web Development                  4
+         42        Shruti Das              2014      Salesforce   Machine Learning Engineer             Python; Machine Learning; SQL                              Research; AI                 11
+         43      Pranav Verma              2020       Capgemini   Machine Learning Engineer  PyTorch; Deep Learning; Machine Learning                              AI; Research                  5
+         44      Swathi Kumar              2023             TCS              Cloud Engineer                 Linux; Docker; Kubernetes                Cloud Computing; Mentoring                  2
+         45      Suresh Patel              2023             HCL                 QA Engineer                    SQL; Selenium; Postman            Programming; Quality Assurance                  2
+         46    Lakshmi Prasad              2017      Salesforce                 QA Engineer                   Java; Selenium; Postman            Programming; Quality Assurance                  8
+         47     Chaitanya Rao              2016      Salesforce   Machine Learning Engineer             Python; Machine Learning; SQL                              Research; AI                  9
+         48        Pranav Das              2020             HCL       Cybersecurity Analyst                       SIEM; Python; Linux                       Research; Mentoring                  5
+         49     Sowmya Prasad              2021   Tech Mahindra             DevOps Engineer                      Git; AWS; Kubernetes               Cloud Computing; Automation                  4
+         50           Sai Das              2016      Salesforce             DevOps Engineer                Jenkins; Kubernetes; Linux               Automation; Cloud Computing                  9
+         51      Yamini Naidu              2016        Flipkart        Full Stack Developer                React; JavaScript; MongoDB                       Mentoring; Startups                  9
+         52   Gayathri Prasad              2020         Infosys       Cybersecurity Analyst            SIEM; Python; Network Security                       Mentoring; Research                  5
+         53        Neha Verma              2019             HCL          Software Developer                     Python; Java; Node.js              Programming; Web Development                  6
+         54      Gayathri Das              2019          Oracle                 QA Engineer                    Postman; SQL; Selenium            Quality Assurance; Programming                  6
+         55       Pooja Menon              2015           Adobe                Data Analyst                   Statistics; Python; SQL                   Data Science; Analytics                 10
+         56 Karthik Choudhary              2018   Tech Mahindra   Machine Learning Engineer            SQL; Machine Learning; PyTorch                    Research; Data Science                  7
+         57      Vishal Verma              2015             IBM             DevOps Engineer                       Linux; AWS; Jenkins               Automation; Cloud Computing                 10
+         58        Ananya Das              2014           Wipro          Software Developer                            Git; Java; SQL                       AI; Web Development                 11
+         59       Tarun Joshi              2015          Oracle                Data Analyst                  SQL; Statistics; Tableau                      Analytics; Mentoring                 10
+         60     Lakshmi Menon              2023           Wipro             Cloud Developer                  Python; Linux; Terraform                   DevOps; Cloud Computing                  2
+         61          Zoya Rao              2022   Tech Mahindra       Cybersecurity Analyst           Network Security; Linux; Python                  Cybersecurity; Mentoring                  3
+         62   Manoj Choudhary              2015       Accenture            Business Analyst       Requirement Analysis; SQL; Power BI       Career Guidance; Business Analytics                 10
+         63      Yamini Varma              2019       Microsoft              Data Scientist            TensorFlow; Python; Statistics                    Research; Data Science                  6
+         64      Dinesh Gupta              2023             TCS             DevOps Engineer                    Linux; AWS; Kubernetes                   DevOps; Cloud Computing                  2
+         65       Pooja Yadav              2018       Capgemini           Software Engineer                            Java; SQL; C++                    Open Source; Mentoring                  7
+         66        Teja Patel              2014        Flipkart                  HR ManagerManagement; Recruitment; Talent Acquisition                       HR; Career Guidance                 11
+         67     Vamsi Krishna              2016       Capgemini                Data Analyst                Statistics; Tableau; Excel                   Mentoring; Data Science                  9
+         68      Vishal Menon              2019      Salesforce              Cloud Engineer                 Azure; Kubernetes; Docker                Cloud Computing; Mentoring                  6
+         69      Shruti Mehta              2021       Cognizant        Full Stack Developer                 React; HTML, CSS; MongoDB                 Web Development; Startups                  4
+         70       Mohan Varma              2014           Wipro   Machine Learning Engineer      SQL; Machine Learning; Deep Learning                          AI; Data Science                 11
+         71     Priyanka Iyer              2021        Qualcomm        Full Stack Developer            HTML, CSS; JavaScript; Node.js                 Startups; Web Development                  4
+         72     Lakshmi Naidu              2019         Infosys       Cybersecurity Analyst             Network Security; Linux; SIEM                   Cybersecurity; Research                  6
+         73      Aditya Menon              2022             HCL       Cybersecurity Analyst            Python; SIEM; Network Security                       Research; Mentoring                  3
+         74        Uday Mehta              2022   Tech Mahindra            Business AnalystPower BI; Communication; Requirement Analysis            Business Analytics; Consulting                  3
+         75     Naveen Sharma              2018        Flipkart              Cloud Engineer                 Azure; Docker; Kubernetes                Mentoring; Cloud Computing                  7
+         76      Ananya Gupta              2020       Accenture              Data Scientist             Python; Machine Learning; SQL                          AI; Data Science                  5
+         77        Ravi Yadav              2018          Oracle          Software Developer                           SQL; Git; React                       Web Development; AI                  7
+         78 Lakshmi Choudhary              2021          Amazon              Cloud Engineer                      Docker; Linux; Azure                Mentoring; Cloud Computing                  4
+         79      Suresh Reddy              2020        Deloitte        Full Stack Developer            JavaScript; HTML, CSS; MongoDB                 Web Development; Startups                  5
+         80     Suresh Prasad              2019            Zoho   Machine Learning Engineer            SQL; PyTorch; Machine Learning                          Data Science; AI                  6
+         81        Amit Verma              2020        Qualcomm             Cloud Developer                 Terraform; Python; Docker                   DevOps; Cloud Computing                  5
+         82        Rakesh Rao              2014       Accenture   Machine Learning Engineer            SQL; Machine Learning; PyTorch                    Data Science; Research                 11
+         83       Manoj Patel              2023        Qualcomm                 QA Engineer           Test Automation; Java; Selenium            Programming; Quality Assurance                  2
+         84       Ramya Singh              2020            Zoho              Cloud Engineer                  Azure; Linux; Kubernetes                Cloud Computing; Mentoring                  5
+         85       Ravi Prasad              2019       Capgemini                 QA Engineer                    Selenium; Postman; SQL            Programming; Quality Assurance                  6
+         86      Tarun Sharma              2018            Dell              UI/UX Designer          User Research; HTML; Prototyping                   Design; Web Development                  7
+         87       Aarav Kumar              2021          Oracle                 QA Engineer                        SQL; Postman; Java            Programming; Quality Assurance                  4
+         88        Rahul Nair              2017          Oracle                Data Analyst                Statistics; Tableau; Excel                      Mentoring; Analytics                  8
+         89   Vamsi Choudhary              2020           Adobe             DevOps Engineer                      Git; AWS; Kubernetes               Cloud Computing; Automation                  5
+         90    Gayathri Mehta              2020            Zoho   Machine Learning Engineer             Python; SQL; Machine Learning                              AI; Research                  5
+         91  Vishal Choudhary              2020   Tech Mahindra       Cybersecurity Analyst Python; Ethical Hacking; Network Security                   Research; Cybersecurity                  5
+         92   Sandeep Krishna              2020       Accenture            Business Analyst              SQL; Power BI; Communication            Consulting; Business Analytics                  5
+         93         Akhil Das              2018       Accenture             Cloud Developer                    Docker; Terraform; AWS                   Cloud Computing; DevOps                  7
+         94    Meghana Sharma              2023            Dell           Backend Developer               Microservices; Python; Java              Web Development; Programming                  2
+         95    Amit Choudhary              2020           Wipro              UI/UX Designer                   Prototyping; Figma; CSS                   Web Development; Design                  5
+         96       Kavya Kumar              2019           Adobe             Cloud Developer                  Linux; Docker; Terraform                   DevOps; Cloud Computing                  6
+         97      Ananya Patel              2023        Qualcomm             Product Manager          SQL; Product Strategy; Analytics         Career Guidance; Entrepreneurship                  2
+         98   Chaitanya Reddy              2023      Salesforce              Cloud Engineer                    Azure; Kubernetes; AWS                   Cloud Computing; DevOps                  2
+         99      Vishal Reddy              2017             TCS              Data Scientist             Python; Machine Learning; SQL                    Research; Data Science                  8
+        100      Harsha Kumar              2018       Accenture        Full Stack Developer              MongoDB; JavaScript; Node.js                Mentoring; Web Development                  7
